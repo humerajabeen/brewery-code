@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Review</title>
+    <link rel="stylesheet" type="text/css" href="review.css">
+</head>
+
+<body>
+    <form id="review-form">
+        <h2>Leave a Review</h2>
+
+        <label>
+            <input type="radio" name="rating" value="1"> 1
+        </label>
+        <label>
+            <input type="radio" name="rating" value="2"> 2
+        </label>
+        <label>
+            <input type="radio" name="rating" value="3"> 3
+        </label>
+        <label>
+            <input type="radio" name="rating" value="4"> 4
+        </label>
+        <label>
+            <input type="radio" name="rating" value="5"> 5
+        </label>
+
+        <textarea name="review" placeholder="Write your review here..."></textarea>
+        <button type="submit">Submit Review</button>
+    </form>
+     <div id="reviews"></div>
+    <script src="review.js"></script>
+</body>
+
+</html>
